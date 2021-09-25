@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Novecento sans wide Bold';
+    src:url('Novecentosanswide-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Segoe WPBold';
+	src: url('Segoe\ WP\ Bold.ttf');
+}
+@font-face {
+    font-family: 'PTSans Regular';
+    src: url('PTSans-Regular.ttf');
+    
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Segoe UI Bold';
+	src: url('SegoeUI-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Sofia Pro Light Az';
+    src: url('Sofia\ Pro\ Light\ Az.otf');
+    font-weight: bold;
+    font-style: normal;
+}
