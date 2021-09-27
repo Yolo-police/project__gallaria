@@ -87,6 +87,7 @@
 	background-color: white;
 	transition: background-color .5s linear, color .5s linear ;
 	margin-bottom: 10px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .menu__item div{
 	width: 27px;
