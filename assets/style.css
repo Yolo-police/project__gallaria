@@ -6,6 +6,7 @@
 	border: 0;
 	box-sizing: border-box;
 	line-height: 0.8em;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .wrapper{
 	max-width: 1000px;
@@ -87,7 +88,8 @@
 	background-color: white;
 	transition: background-color .5s linear, color .5s linear ;
 	margin-bottom: 10px;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	user-select: none;
+	
 }
 .menu__item div{
 	width: 27px;
