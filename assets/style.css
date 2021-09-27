@@ -20,8 +20,8 @@
 	z-index: 10;
 	background-color: white;
 	box-shadow: 3px 3px 5px 6px rgba(34, 60, 80, 0.12);
-
 }
+
 .logo{
 	margin: 0 auto;
 	margin-top: 18px;
@@ -96,17 +96,26 @@
 	margin:0 14px;
 	transition: background-color .5s linear;
 }
-.menu__item:hover{
+._pc .menu__item:hover{
 	background-color: #88b9d4;
 	color:white;
 }
-.menu__item:hover div{
+._pc .menu__item:hover div{
 	background-color: white;
 }
-.menu__item:hover .icon-shape-home::before, .menu__item:hover .icon-shape-video::before, .menu__item:hover .icon-shape-img::before, .menu__item:hover .icon-shape-documents::before{
+ ._pc .menu__item:hover .icon-shape-home::before, ._pc .menu__item:hover .icon-shape-video::before, ._pc .menu__item:hover .icon-shape-img::before, ._pc .menu__item:hover .icon-shape-documents::before{
 	color: #97c2da;
 }
-
+._touch .menu__item:active{
+	background-color: #88b9d4;
+	color:white;
+}
+._touch .menu__item:active div{
+	background-color: white;
+}
+ ._touch .menu__item:active .icon-shape-home::before, ._touch .menu__item:active .icon-shape-video::before, ._touch .menu__item:active .icon-shape-img::before, ._touch .menu__item:active .icon-shape-documents::before{
+	color: #97c2da;
+}
 .menu__item:last-child{
 	margin-bottom: 0;
 }
